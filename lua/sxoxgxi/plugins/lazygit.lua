@@ -13,4 +13,7 @@ return {
   keys = {
     { '<leader>lg', '<cmd>LazyGit<cr>', desc = 'Open Lazygit' },
   },
+  config = function()
+    vim.cmd 'highlight LazyGitBorder guifg=#208397'
+  end,
 }

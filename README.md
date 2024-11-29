@@ -1,8 +1,28 @@
-# Neovim Configs
+# Neovim Setup
 
-## Introduction
+This section showcases my Neovim setup, including configurations, themes, plugins, and customizations. Below are some screenshots of my Neovim environment.
 
-- Modifed from kickstart,nvim
+## Neovim Screenshots
+
+### 1. **Neovim Main Interface**
+
+![Neovim Main Interface](./media/df_nvim.png)
+
+### 2. **Lazygit Floating Window**
+
+![Lazygit Floating Window](./media/lg_nvim.png)
+
+### 3. **Telescope File Search**
+
+![Telescope File Search](./path_to_image/telescope_search.png)
+
+### 4. **NeoTree File Explorer**
+
+![NeoTree File Explorer](./path_to_image/neotree_explorer.png)
+
+### 5. **Terminal Inside Neovim**
+
+![Terminal Inside Neovim](./path_to_image/neovim_terminal.png)
 
 ### Install Neovim
 
