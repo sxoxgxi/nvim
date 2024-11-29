@@ -14,15 +14,15 @@ This section showcases my Neovim setup, including configurations, themes, plugin
 
 ### 3. **Telescope File Search**
 
-![Telescope File Search](./path_to_image/telescope_search.png)
+![Telescope File Search](./media/tel_nvim.png)
 
 ### 4. **NeoTree File Explorer**
 
-![NeoTree File Explorer](./path_to_image/neotree_explorer.png)
+![NeoTree File Explorer](./media/fs_nvim.png)
 
 ### 5. **Terminal Inside Neovim**
 
-![Terminal Inside Neovim](./path_to_image/neovim_terminal.png)
+![Terminal Inside Neovim](./media/term_nvim.png)
 
 ### Install Neovim
 
