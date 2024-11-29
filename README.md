@@ -48,10 +48,6 @@ External Requirements:
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes
 > and quick install snippets
 
-### Install
-
-> **NOTE** > [Backup](#FAQ) your previous configuration (if any exists)
-
 Neovim's configurations are located under the following paths, depending on your OS:
 
 | OS                   | PATH                                      |
