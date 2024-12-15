@@ -61,3 +61,7 @@ vim.keymap.set('v', '<', '<gv', { noremap = true, silent = true, desc = 'Decreas
 vim.keymap.set('n', 'a', 'A', { noremap = true, silent = true, desc = 'Map a to Shift+A' })
 vim.keymap.set('v', 'p', '"_dP', { noremap = true, silent = true, desc = 'Paste without yanking' })
 vim.keymap.set('n', 'd-', 'd$', { noremap = true, silent = true, desc = 'Delete to end of line' })
+vim.keymap.set('v', 'd', '"_d', { noremap = true, silent = true, desc = 'Delete without yanking' })
+
+-- Plugs
+vim.keymap.set('n', '<leader>md', '<cmd>MarkdownPreviewToggle<cr>', { noremap = true, silent = true, desc = 'Toggle markdown preview' })

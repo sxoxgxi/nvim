@@ -9,6 +9,7 @@ return {
       enable = true,
       additional_vim_regex_highlighting = { 'ruby' },
     },
+    autotag = { enable = true },
     indent = { enable = true, disable = { 'ruby' } },
   },
 }
