@@ -58,7 +58,6 @@ vim.keymap.set('n', '<C-h>', ':wincmd h<CR>', { noremap = true, silent = true, d
 vim.keymap.set('n', '<leader>lw', '<cmd>set wrap!<CR>', { noremap = true, silent = true, desc = 'Toggle line wrap' })
 vim.keymap.set('v', '>', '>gv', { noremap = true, silent = true, desc = 'Increase indentation' })
 vim.keymap.set('v', '<', '<gv', { noremap = true, silent = true, desc = 'Decrease indentation' })
-vim.keymap.set('n', 'a', 'A', { noremap = true, silent = true, desc = 'Map a to Shift+A' })
 vim.keymap.set('v', 'p', '"_dP', { noremap = true, silent = true, desc = 'Paste without yanking' })
 vim.keymap.set('n', 'd-', 'd$', { noremap = true, silent = true, desc = 'Delete to end of line' })
 vim.keymap.set('v', 'd', '"_d', { noremap = true, silent = true, desc = 'Delete without yanking' })
