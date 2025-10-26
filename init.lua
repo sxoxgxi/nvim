@@ -24,7 +24,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
   { import = 'sxoxgxi.plugins' },
-  'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
+  'tpope/vim-sleuth',
   {
     'lewis6991/gitsigns.nvim',
     opts = {
@@ -58,15 +58,12 @@ require('lazy').setup({
     -- Main LSP Configuration
     'neovim/nvim-lspconfig',
     dependencies = {
-      -- Automatically install LSPs and related tools to stdpath for Neovim
       {
         'mason-org/mason.nvim',
-        version = '1.11.0',
         config = true,
       },
       {
         'mason-org/mason-lspconfig.nvim',
-        version = '1.31.0',
       },
       {
         'antosha417/nvim-lsp-file-operations',
