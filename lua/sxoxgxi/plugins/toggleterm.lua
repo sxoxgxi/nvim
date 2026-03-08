@@ -1,6 +1,7 @@
 return {
   'akinsho/toggleterm.nvim',
   config = function()
+    local palette = require('catppuccin.palettes').get_palette 'mocha'
     require('toggleterm').setup {
       size = 20,
       open_mapping = [[<c-\>]],
@@ -12,13 +13,13 @@ return {
       shell = '/bin/bash', -- Use /bin/bash as the shell
       highlights = {
         Normal = {
-          guibg = '#ffffff', -- Background color for the terminal
+          guibg = palette.base,
         },
         NormalFloat = {
-          link = 'Normal', -- Link the normal float to Normal (inherits properties)
+          link = 'Normal',
         },
         FloatBorder = {
-          guifg = '#27a1b9', -- Foreground (border) color
+          guifg = palette.blue,
         },
       },
       float_opts = {
